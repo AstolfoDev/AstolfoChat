@@ -1,0 +1,6 @@
+version: 1.0.0 #Don't touch this
+block: false #If set to true it blocks the entire message from being sent instead of filtering the word
+block-message: This message has been blocked because it contained an inappropriate word! #The message sent to the user if block is enabled
+banned-text: word1, word2, sentence one, sentence two #Words that are filtered from messages, each phrase is seperated by a comma
+#Example:
+#banned-text: damn bro, you got, the whole, squad laughing, uwu
